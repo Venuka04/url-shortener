@@ -10,8 +10,6 @@ A simple URL shortener web application built with Django. This app takes a long 
 - [API](#api)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -39,11 +37,14 @@ A simple URL shortener web application built with Django. This app takes a long 
 3. Install the required dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install django
+   pip install requests
    ```
 
 4. Set up environment variables (if necessary, such as API keys):
 
+   - Create an account on https://bitly.com/
+   - In settings select API. Then Enter your password and Generate an access token.
    - Replace the Bit.ly API token in the `views.py` file:
 
    ```python
@@ -98,6 +99,6 @@ This project uses the Bit.ly API to shorten URLs.
 ## Technologies Used
 
 - **Frontend**: HTML, Bootstrap
-- **Backend**: Python, Django
+- **Backend**: Django
 - **API**: Bit.ly API
 - **Database**: SQLite (default for Django)

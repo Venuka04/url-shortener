@@ -19,9 +19,8 @@ def index_form(request):
 # function to shorten url 
 def shorten_url(url): 
 	# define access token in headers 
-	headers = { 
-		'Authorization': 'Bearer f87979ebfc5c57f24a00218b7f5e94f95669b568', 
-		# 'Authorization': 'Bearer {TOKEN}', 
+	headers = {  
+		# 'Authorization': 'Bearer YOUR_BITLY_API_TOKEN', 
 		'Content-Type': 'application/json', 
 	} 
 
