@@ -1,4 +1,4 @@
-# URL Shortener Web Application
+# miniURL - URL Shortner Web Application
 
 A simple URL shortener web application built with Django. This app takes a long URL as input and returns a shortened version using the Bit.ly API.
 
